@@ -1,0 +1,18 @@
+.popup__input-error {
+    position: absolute;
+    top: 32px;
+    left: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: red;
+    max-width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .1s linear;
+}
+
+.popup__input-error_visible {
+    opacity: 1;
+    visibility: visible;
+}

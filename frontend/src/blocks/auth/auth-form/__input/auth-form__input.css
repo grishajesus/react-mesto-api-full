@@ -1,0 +1,21 @@
+.auth-form__input {
+  width: 100%;
+  padding: 12px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  transition: border-bottom 0.2s;
+  outline: none;
+}
+
+.auth-form__input:hover {
+  border-bottom-color: #fff;
+}
+
+.auth-form__input::-webkit-input-placeholder {
+  color: #ccc;
+  font-weight: 400;
+}

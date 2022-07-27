@@ -1,0 +1,40 @@
+.header__user-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.header__user-info p {
+  font-size: 18px;
+}
+
+.header__user-info p:not(:last-child) {
+  margin-right: 24px;
+}
+
+.header__user-info button,
+.header__user-info a {
+  padding: 0;
+  color: white;
+  line-height: 22px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.header__user-info button:hover,
+.header__user-info a:hover {
+  text-decoration: underline;
+}
+
+.header__user-info_authorized button,
+.header__user-info_authorized a {
+  color: #a9a9a9;
+}
+
+.header__user-info_authorized button:hover,
+.header__user-info_authorized a:hover {
+  color: white;
+}

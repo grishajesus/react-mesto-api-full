@@ -1,0 +1,38 @@
+.auth-form__footer {
+  width: 100%;
+  margin-top: 216px;
+}
+
+.auth-form__footer button {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.auth-form__footer button:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: #000;
+}
+
+.auth-form__footer p {
+  margin-top: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.auth-form__footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-form__footer a:hover {
+  text-decoration: underline;
+}
